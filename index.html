@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY</title> <!-- giving title to the webpage "SPOTIFY"-->
+    <link rel="stylesheet" href="style.css"> <!--Linking css file with HTML-->
+</head> 
+<body>
+    <nav> <!--Creating a Navigation bar for the webpage-->
+        <ul> <!--Creating a undefined list , containing -->
+            <li class="brand"><img src="logo.png" alt="Spotify">Melodify</li> <!--List conating image of Spotify logo and conatins Heading of SPOTIFY -->
+            <li>Home</li> <!--Home section-->
+            <li>About</li> <!--About section-->
+        </ul>
+    </nav>
+
+    <div class="conatiner"> <!--Div having a class named conatiner-->
+        <div class="songList"> <!--Div having class songlist , it will conatin all the list of songs to display on Web-->
+            <h1>Best of NCS - No Copyright Sounds</h1> <!--Heading 1 For song list-->
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id='0' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover2.jpg" alt="1">
+                    <span class="songName">Legion : It's Always Blue</span>
+                    <span class="songlistplay"><span class="timestamp">03:45 <i id='1' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover3.jpg" alt="1">
+                    <span class="songName">Trap Cratel</span>
+                    <span class="songlistplay"><span class="timestamp">02:56 <i id='2' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover4.jpg" alt="1">
+                    <span class="songName">They Mad Lowkey Pesci</span>
+                    <span class="songlistplay"><span class="timestamp">05:48 <i id='3' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover5.jpg" alt="1">
+                    <span class="songName">Rich The Kid - Plug Walk</span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id='4' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover6.jpg" alt="1">
+                    <span class="songName">Song Titkes</span>
+                    <span class="songlistplay"><span class="timestamp">03:39 <i id='5' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover7.jpg" alt="1">
+                    <span class="songName">The Saftey Dance</span>
+                    <span class="songlistplay"><span class="timestamp">06:28 <i id='6' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover8.jpg" alt="1">
+                    <span class="songName">Back It Up</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id='7' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover9.jpg" alt="1">
+                    <span class="songName">Peaches - Justin </span>
+                    <span class="songlistplay"><span class="timestamp">04:35 <i id='8' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover10.jpg" alt="1">
+                    <span class="songName">Ghost</span>
+                    <span class="songlistplay"><span class="timestamp">03:39 <i id='9' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Let Me Love You</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f0e7b868b0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

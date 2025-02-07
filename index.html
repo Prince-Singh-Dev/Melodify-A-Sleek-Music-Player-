@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPOTIFY</title> <!-- giving title to the webpage "SPOTIFY"-->
+    <title>MELODIFY</title> <!-- giving title to the webpage "SPOTIFY"-->
     <link rel="stylesheet" href="style.css"> <!--Linking css file with HTML-->
 </head> 
 <body>
@@ -18,8 +18,8 @@
     <div class="conatiner"> <!--Div having a class named conatiner-->
         <div class="songList"> <!--Div having class songlist , it will conatin all the list of songs to display on Web-->
             <h1>Best of NCS - No Copyright Sounds</h1> <!--Heading 1 For song list-->
-            <div class="songItemContainer">
-                <div class="songItem">
+            <div class="songItemContainer"> <!--Making div for songs item conatiner-->
+                <div class="songItem"> <!--Song items containing cover image , song name with time stamp and logo of pause and play -->
                     <img src="cover1.jpg" alt="1">
                     <span class="songName">Let Me Love You</span>
                     <span class="songlistplay"><span class="timestamp">05:34 <i id='0' class="songItemPlay fa-regular fa-circle-play"></i> </span></span>
@@ -80,23 +80,23 @@
                 </div>
             </div>
         </div>
-        <div class="songBanner"></div>
+        <div class="songBanner"></div> <!--Div for the song banner-->
     </div>
 
-    <div class="bottom">
+    <div class="bottom">  <!--Div for bottom design-->
         <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="icons">
-            <!--fontawesome icons-->
-            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
-            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
-            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+            <!--signing in on website and using its fontawesome icons-->
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i> <!--previous button taken from font awsome-->
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i> <!--play button taken from font awsome-->
+            <i class="fa-solid fa-3x fa-forward" id="next"></i> <!--pause button taken from font awsome-->
         </div>
 
-        <div class="songInfo">
+        <div class="songInfo"> <!--for songinfo division at right bottom , conatining playing gif , song name-->
             <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Let Me Love You</span>
         </div>
     </div>
-    <script src="https://kit.fontawesome.com/f0e7b868b0.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f0e7b868b0.js" crossorigin="anonymous"></script> <!--To connect font awesome to access its logo-->
+    <script src="script.js"></script> <!--Connecting Java Script with HTML-->
 </body>
 </html>

@@ -1,4 +1,4 @@
-"**Melodify** is a fully functional music player app developed using HTML, CSS, and JavaScript. Designed with simplicity and usability in mind, this web app brings a smooth and dynamic music listening experience directly in your browser.
+"**Melodify** is a fully functional music player app developed using HTML, CSS, and JavaScript. Designed with simplicity and usability in mind, this web app brings a smooth and dynamic music listening experience directly in your browser...
 
 **Features:**
 - **Responsive Design**: The app is fully responsive, ensuring that users can enjoy a seamless experience across various screen sizes, whether on desktop, tablet, or mobile.
